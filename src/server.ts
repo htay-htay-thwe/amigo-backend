@@ -2,7 +2,7 @@ import express, { Request, Response } from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import { fetchFlights } from "./fetchFlights";
-import { fetchHotels, fetchHotelsBangkok, fetchHotelsChiangMai } from "./fetchHotels";
+import { fetchHotels } from "./fetchHotels";
 import { FlightSearchParams, HotelSearchParams } from "./types";
 
 // Load environment variables
@@ -31,11 +31,7 @@ app.get("/", (req: Request, res: Response) => {
     endpoints: {
       health: "GET /",
       flights: "GET /api/flights",
-      flightsCNXDMK: "GET /api/flights/cnx-dmk",
-      flightsBKKCNX: "GET /api/flights/bkk-cnx",
       hotels: "GET /api/hotels",
-      hotelsBangkok: "GET /api/hotels/bangkok",
-      hotelsChiangMai: "GET /api/hotels/chiangmai",
     },
   });
 });
