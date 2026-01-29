@@ -1,6 +1,6 @@
 # Amigo Flight Backend
 
-Backend API for searching real-time flight data using Amadeus API and hotel data using rapid api.
+Backend API for searching real-time flight data using Amadeus API and hotel data using rapid api (Booking.com).
 
 ## 🚀 Setup
 
@@ -9,14 +9,15 @@ Backend API for searching real-time flight data using Amadeus API and hotel data
 npm install
 ```
 
-### 2. Get Amadeus API Credentials
+### 2. Get Amadeus API and Rapid API Credentials
 1. Sign up at [Amadeus Developers](https://developers.amadeus.com/)
 2. Create a new app to get your API Key and Secret
-3. Copy `.env.example` to `.env`:
+3. Go to Rapid api website and find booking.com.
+4. Copy `.env.example` to `.env`:
    ```bash
    cp .env.example .env
    ```
-4. Add your credentials to `.env`
+5. Add your credentials to `.env`
 
 ### 3. Run the Server
 
