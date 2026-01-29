@@ -53,18 +53,6 @@ GET /api/flights?origin=CNX&destination=DMK&date=2026-02-15
 - `currency` (optional) - Currency code (default: THB)
 - `max` (optional) - Max results (default: 10)
 
-### CNX to DMK Route
-```
-GET /api/flights/cnx-dmk?date=2026-02-15
-```
-Chiang Mai to Bangkok Don Mueang flights.
-
-### BKK to CNX Route
-```
-GET /api/flights/bkk-cnx?date=2026-02-15
-```
-Bangkok to Chiang Mai flights.
-
 ## 📱 Frontend Integration
 
 ### React Native Example
