@@ -1,6 +1,6 @@
 # Amigo Flight Backend
 
-Backend API for searching real-time flight data using Amadeus API.
+Backend API for searching real-time flight data using Amadeus API and hotel data using rapid api.
 
 ## 🚀 Setup
 
